@@ -19,7 +19,7 @@ namespace Additional_Task
             Document document = new Document(title, body, footer);
             var my_document = document.CreateDocument();
             Console.WriteLine(new string('-', 25) + " " +"Сформированный документ"+ new string('-', 25));
-            document.PrintDocument(my_document.Item1, my_document.Item2, my_document.Item3);
+            document.PrintDocument(my_document.Item1, my_document.Item2, my_document.Item3); //Отлично
             Console.ReadKey();
         }
 

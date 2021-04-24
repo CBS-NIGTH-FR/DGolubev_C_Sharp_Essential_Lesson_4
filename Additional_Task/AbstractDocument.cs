@@ -13,7 +13,7 @@ namespace Additional_Task
         public abstract string FooterContent { get; set; }
 
 
-        public abstract (string, string, string) CreateDocument();
+        public abstract (string, string, string) CreateDocument(); //Отлично
         public abstract void PrintDocument(string title_content, string body_content, string footer_content);
         
     }

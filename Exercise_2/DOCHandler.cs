@@ -8,7 +8,7 @@ namespace Exercise_2
         public override string FilePath { get; set; }
 
         public DOCHandler(string filepath)
-            : base(filepath) {}
+            : base(filepath) {}                 //Отлично
 
               
         public override void Save()
